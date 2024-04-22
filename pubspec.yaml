@@ -28,4 +28,4 @@ flutter:
       ios:
         pluginClass: CryptographyFlutterPlugin
       macos:
-        pluginClass: CryptographyFlutterPlugin
+        pluginClass: BetterCryptographyFlutterPlugin

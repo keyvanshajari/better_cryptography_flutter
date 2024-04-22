@@ -16,10 +16,10 @@ import Cocoa
 import CryptoKit
 import FlutterMacOS
 
-public class SwiftCryptographyFlutterPlugin: NSObject, FlutterPlugin {
+public class BetterCryptographyFlutterPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "cryptography_flutter", binaryMessenger: registrar.messenger())
-        let instance = SwiftCryptographyFlutterPlugin()
+        let channel = FlutterMethodChannel(name: "better_cryptography_flutter", binaryMessenger: registrar.messenger)
+        let instance = BetterCryptographyFlutterPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }
 
